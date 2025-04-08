@@ -20,7 +20,7 @@ pipeline {
         stage('Dev-Deploy') {
             steps {
                 echo 'Hello Docker Deploy'
-               eploy adapters: [tomcat9(credentialsId: '53cf4296-a933-4dda-8214-e621c49c4515', path: '', url: 'http://192.168.64.138:8081/')], contextPath: ' jashu-1-1.0-SNAPSHOT.war', war: '**/*.war'
+               deploy adapters: [tomcat9(credentialsId: '53cf4296-a933-4dda-8214-e621c49c4515', path: '', url: 'http://192.168.64.138:8081/')], contextPath: 'jashu1-1.0-SNAPSHOT.war', war: '**/*.war'
                   }
         }
 }
