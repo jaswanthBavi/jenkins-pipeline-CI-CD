@@ -1,0 +1,7 @@
+jas\JAXRSConfiguration.class
+jas\business\JobBusiness.class
+jas\dao\JobDao.class
+jas\dao\Dao.class
+jas\resource\JobResource.class
+jas\entity\Entity.class
+jas\entity\Job.class
